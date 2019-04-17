@@ -53,18 +53,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        String jsonstr="{ \"dateSet\":{ \"dateType\":\"D\", \"startDate\":\"20180101\", \"endDate\":\"20180101\" },\n" +
-                " \"row\":[ { \"assetId\":\"A229I229005\", \"outputType\":\"\" },{ \"assetId\":\"A22950081\", \"outputType\":\"\" } ],\n" +
-                " \"column\":[ { \"assetId\":\"A22950081\", \"aggregate\":\"max\" },\n" +
-                " { \"assetId\":\"A22950082\", \"aggregate\":\"min\" },\n" +
-                "{ \"assetId\":\"A229F229002\", \"aggregate\":\"count\" },\n" +
-                "{ \"assetId\":\"A001\", \"aggregate\":\"sum\" },\n" +
-                "{ \"assetId\":\"A001\", \"aggregate\":\"avg\" }], \n" +
-                "\"condition\":[ { \"whereAssetId\":\"A001\", \"whereType\":\"<\", \"value\":\"4115110747133363\" } ],\n" +
-                "\"sort\":[{\"assetId\":\"A001\",\"sort_type\":2}],\n" +
-                "\"preview\":{\"isPreview\":true,\"previewNumber\":6} \n" +
-                " \n" +
-                "}";
-        System.out.println(jsonstr);
+        String jsonstr="";
+        System.out.println("1");
     }
 }
